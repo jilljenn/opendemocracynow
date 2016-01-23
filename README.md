@@ -19,7 +19,7 @@ ou encore le projet [Sciences/Bruno Latour](http://www.sciencespo.fr/edc/fr/blog
 ## Votes.CSV (2c4b)
 L'objectif est d'appliquer un traitement sur les votes provenant de chaque utilisateurs.
 
-## Script de @jjvie (algorithme de classification)
+## Script de @jilljenn (algorithme de classification)
 Pour identifier les différents collèges de contributeurs, nous procédons:
 
 Un algorithme qui a pour but d'identifier les voisinages par vote : tel utilisateur a voté sur tel article, puis on applique un score par utilisateur.
@@ -38,8 +38,8 @@ La fonction procède à l'interprétation du fichier CSV afin qu'il identifie qu
 
 But: Pour un utilisateur donné, on est capable de récupérer la nature de son vote et les articles sur lesquels il a voté.
 
-@jjvie ensuite applique son algorithme KNN sur le CSV: *Quels sont les voisins d'un utilisateur?*
-Puis, chaque utilisateur se voit recevoir la liste de ses voisins les plus proches, et @jjvie en génère enfin une page personnelle de profil qu'on peut visiter sur Internet.
+@jilljenn ensuite applique son algorithme KNN sur le CSV: *Quels sont les voisins d'un utilisateur?*
+Puis, chaque utilisateur se voit recevoir la liste de ses voisins les plus proches, et @jilljenn en génère enfin une page personnelle de profil qu'on peut visiter sur Internet.
 
 Constance tente de faire une cartographie sur [Cortext](http://www.cortext.net/): un réseau hétérogène.
 Cette initiative fait de l'analyse de co-occurrence. On pourrait se doter d'un fichier qui réunit les données d'un utilisateur ainsi que ses voisins.
