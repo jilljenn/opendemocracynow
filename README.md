@@ -37,7 +37,7 @@ soit un dictionnaire :
 objectif est de produire une visualisation 
 
 #Travail sur le site "Nezquiz.com"
-Mori coordonne
+Mori coordonne les points suivants
 Oscar : la liste des articles de loi qui sont en cours de débat sur le site
 Antoine : développe la page d'accueil 
 site visible sur nesquiz.com
