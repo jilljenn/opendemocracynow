@@ -36,7 +36,7 @@ soit un objet python,
 soit un dictionnaire : 
 objectif est de produire une visualisation 
 
-#Travail sur le site "Nezquiz.com"
+#Travail sur le site "Nesquiz.com"
 Mori coordonne les points suivants
 Oscar : la liste des articles de loi qui sont en cours de débat sur le site
 Antoine : développe la page d'accueil 
