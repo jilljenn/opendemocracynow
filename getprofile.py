@@ -21,10 +21,11 @@ def make_profile(username):
     votes = get_votes(username)
     neighbors = get_neighbors(username)
     with open('web/profile/%s.html' % username, 'w') as f:
-        f.write(jinja2.Template(open('profile.html').read()).render({'votes': votes, 'neighbors': neighbors}))
+        f.write(jinja2.Template(open('profile.html').read()).render({'username': username, 'votes': votes, 'neighbors': neighbors}))
 
 
-# make_profile("vincentreverdy")
+make_profile("vincentreverdy")
+
 usernames = ["reyrobert", "meyermichel", "emmameunier", "brohanmickael", "alexmaluhia", "laurent6", "voltz", "dangienarnaud", "hersonjerome", "danielgohaud", "pierreemmanuelgr", "amenysbentabak", "johnrose", "hugoblanzat", "cedricblanchard"]
 for username in usernames:
     print(make_profile(username))
