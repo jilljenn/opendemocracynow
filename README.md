@@ -26,14 +26,14 @@ doit faire une fonction qui scanner le fichier csv et pour qu'il identifie qui a
 soit tu as la liste, soit le dictionnaire 
 fonction en python : pour un utilisateur donné, récupération de la nature du vote, et des articles sur lesquels il a voté
 
-#JJ: il applique le script de voisinage sur le csv
+#JJ applique le script de voisinage sur le csv
 quel voisin d'un utilisateur ?
 recueil des données qui sont similaires à un utilisateur 1
 pour chaque utilisateur on obtient la liste de ses voisins organisés par ordre de proximité
 
 #JJ a réalisé des pages de profil
 
-#Constance : elle essaie de faire une carto sur cortext : un réseau hétérogène.
+#Constance essaie de faire une carto sur cortext : un réseau hétérogène.
 ce système fait de l'analyse de cooccurrence. 
 on pourrait avoir un fichier qui réunit les données sur un utilisateur et ses voisins
 soit un objet python, 
@@ -48,5 +48,7 @@ réalisation d'une page html statique pour télécharger les voisins enfichier .
 (traitement de données personnelles)
 
 # travail sur les tags des articles
-il existe des ontologies juridiques. objectif de rendre lisible la loi, en fournissant des explications, ou ne faisant des renvois sur des références extérieures. Un mot-clef qui te donne accès à des explications. 
-- TAGUER : éviter le parasitage. les mots-clefs qui donnent l'enjeu de l'article : ouverture des données publiques
+il faudrait se référer à des ontologies juridiques sur lesquelles cette partie du projet pourrait s'appuyer. 
+l'objectif est de rendre lisible la loi, en fournissant des explications, ou en faisant des renvois sur des références extérieures (légifrance). Un mot-clef qui te donne accès à des explications. 
+pour chaque article de la loi, une fenêtre apparaît avec une explication pédagogique, potentiellement une version consolidée du texte.
+- TAGUER des mots importants, des mots-clefs, des thématiques : objectif d'éviter le parasitage. les mots-clefs donnent l'enjeu de l'article : Ex. "ouverture des données publiques"
